@@ -1,10 +1,15 @@
-$bg-color: steelblue;
-
-html {
+html{
+  background: red;
+  box-sizing: border-box;
   font: {
-    family: sanserif;
     size: 16px;
+    family: sans-serif;
   }
-  background-color: $bg-color;
-  display: grid;
+}
+*,
+*:after,
+*:before{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
