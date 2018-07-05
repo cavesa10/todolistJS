@@ -13,7 +13,7 @@
     "start": "npm run watchify | npm run serve",
     "build": "npm run browserify && npm run uglify && npm run autoprefixer && babel-node server.js"
   },
-  "author": "Jonathan MirCha <jonmircha@gmail.com>",
+  "author": "Carlos Vesga <cavesa10@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "ack-reload": "^2.0.6",

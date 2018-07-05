@@ -1,8 +1,8 @@
 import { d } from './helpers'
 import ToDoList from './todolist'
 
-const taks = d.querySelector('#task')
+const task = d.querySelector('#task')
 const list = d.querySelector('#list')
-const todo = new ToDoList('edList')
+const todo = new ToDoList('MyList')
 
 todo.render()

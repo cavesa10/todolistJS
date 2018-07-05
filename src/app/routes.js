@@ -5,8 +5,8 @@ const routes = express.Router()
 routes
   .get('/', (req, res, next) => {
     res.render('index', {
-      title: 'ToDO List',
-      description: 'ToDO List Isomórfico con Vanilla JS'
+      title: 'ToDo List',
+      description: 'ToDo List Isomórfico con Vanilla JS'
     })
   })
 export default routes
